@@ -1,0 +1,42 @@
+.footer {
+  position: absolute;
+  bottom:0;
+    width: 100%;
+    background-color: greenyellow;
+    color:black;
+    padding: 2em;
+    text-align: center;
+}
+
+.fixedFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.social_list {
+  display: flex;
+  justify-content: center;
+  gap:20px
+}
+.social_list:hover{
+  color: #ffbb33;
+}
+
+.social_list svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.copy_right {
+  margin-top: 20px;
+}
+.copy_right span {
+  font-weight: bold;
+  color: black;
+}
