@@ -1,6 +1,27 @@
 {
+  "name": "market",
+  "version": "1.0.0",
+  "description": "Criação de um site online.",
+  "main": "index.js",
   "dependencies": {
+    "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-scripts": "^0.0.0"
-  }
+    "react-scripts": "^0.0.0",
+    "scheduler": "^0.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlondorleto/market-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlondorleto/market-react/issues"
+  },
+  "homepage": "https://github.com/erlondorleto/market-react#readme"
 }
