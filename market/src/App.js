@@ -10,7 +10,6 @@ import Alimentos from './components/pages/Alimentos';
 import Bebidas from './components/pages/Bebidas';
 import Pets from './components/pages/Pets';
 import Limpeza from './components/pages/Limpeza';
-import AcaoSocial from './components/pages/AcaoSocial';
 
 
 import Navbar from './components/layout/Navbar';
@@ -37,7 +36,7 @@ function App() {
           <Route path="/bebidas" element={<Bebidas />} />
           <Route path="/pets" element={<Pets />} />
           <Route path="/limpeza" element={<Limpeza />} />
-          <Route path="/AcaoSocial" element={<AcaoSocial />} />
+    
         </Routes>
       </Container>
 

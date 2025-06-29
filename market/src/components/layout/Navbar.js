@@ -57,7 +57,7 @@ function Navbar({ onSearchProduto, onSearchCategoria }) {
           <li className={styles.item}><Link to="/sobre">Sobre</Link></li>
           <li className={styles.item}><Link to="/company">Company</Link></li>
           <li className={styles.item}><Link to="/contact">Contato</Link></li>
-          <li className={styles.item}><Link to="/AcaoSocial">AcaoSocial</Link></li>
+          
         </ul>
 
         <div className={styles.searchRow}>
